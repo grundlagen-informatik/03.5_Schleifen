@@ -14,7 +14,8 @@ int main() {
     int aufgabe;
 
     printf("Fuer die Pyramide druecke: 1\n"
-           "Fuer den Noten-Rechner druecke: 2\n");
+           "Fuer den Noten-Rechner druecke: 2\n"
+           "Fuer den Pin druecke: 3\n");
     scanf("%d", &aufgabe);
 
     if (aufgabe == 1) {
