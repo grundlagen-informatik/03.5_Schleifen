@@ -1,0 +1,33 @@
+#include <stdio.h>
+
+// Funktionsprototyp für Aufgabe 1
+void pyramide();
+
+// Funktionsprototyp für Aufgabe 2
+void notenRechner();
+
+// Am Hauptteil muss nichts geändert werden. Der Code kann in die zwei Funktionen geschrieben werden.
+int main() {
+    int aufgabe;
+
+    printf("Fuer die Pyramide druecke: 1\n"
+           "Fuer den Noten-Rechner druecke: 2\n");
+    scanf("%d", &aufgabe);
+
+    if (aufgabe == 1) {
+        pyramide();
+    } else if (aufgabe == 2) {
+        notenRechner();
+    } else {
+        printf("Ungueltige Eingabe, Programm muss neu gestartet werden.\n");
+    }
+    return 0;
+}
+
+void pyramide(){
+    // Hier muss der Code für die Zahlen-Ausgabe mit Addition geschrieben werden.
+}
+
+void notenRechner(){
+    // Hier muss der Code für die Zahlen-Ausgabe geschrieben werden.
+}
