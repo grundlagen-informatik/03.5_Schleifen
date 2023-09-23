@@ -24,10 +24,11 @@ int main() {
     return 0;
 }
 
+
 void pyramide(){
-    // Hier muss der Code für die Zahlen-Ausgabe mit Addition geschrieben werden.
+    // Hier muss der Code für die Pyramiden Aufgabe geschrieben werden.
 }
 
 void notenRechner(){
-    // Hier muss der Code für die Zahlen-Ausgabe geschrieben werden.
+    // Hier muss der Code für den Noten-Rechner geschrieben werden.
 }
