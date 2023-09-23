@@ -6,6 +6,9 @@ void pyramide();
 // Funktionsprototyp für Aufgabe 2
 void notenRechner();
 
+// Funktionsprototyp für Aufgabe 3
+void pin();
+
 // Am Hauptteil muss nichts geändert werden. Der Code kann in die zwei Funktionen geschrieben werden.
 int main() {
     int aufgabe;
@@ -18,7 +21,9 @@ int main() {
         pyramide();
     } else if (aufgabe == 2) {
         notenRechner();
-    } else {
+    } else if (aufgabe == 3){
+        pin();
+    }else {
         printf("Ungueltige Eingabe, Programm muss neu gestartet werden.\n");
     }
     return 0;
@@ -31,4 +36,8 @@ void pyramide(){
 
 void notenRechner(){
     // Hier muss der Code für den Noten-Rechner geschrieben werden.
+}
+
+void pin(){
+    // Hier muss der Code für die Pin Aufgabe geschrieben werden.
 }
